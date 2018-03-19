@@ -53,13 +53,14 @@ body{
     }//pc_menu
     
     #sp_menu{
-        display: inline-flex;
+        display: flex;
+        justify-content: center;
         
         .sp_sns{
             display: inline-flex;
             justify-content: flex-end;
 
-            width: 160px;
+            // width: 160px;
             .sns_icon{
                 
                 padding-left: 5px;
@@ -79,6 +80,8 @@ body{
                 margin: 0;
                 padding: 0;
                 display: none;
+                position: absolute;
+                left: 100px;
                 li{
                     border: 1px $subColor solid;
                     list-style: none;

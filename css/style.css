@@ -33,11 +33,11 @@ body {
   #header_in #pc_menu {
     display: none; }
   #header_in #sp_menu {
-    display: inline-flex; }
+    display: flex;
+    justify-content: center; }
     #header_in #sp_menu .sp_sns {
       display: inline-flex;
-      justify-content: flex-end;
-      width: 160px; }
+      justify-content: flex-end; }
       #header_in #sp_menu .sp_sns .sns_icon {
         padding-left: 5px; }
     #header_in #sp_menu .sp_navi {
@@ -50,7 +50,9 @@ body {
         background: white;
         margin: 0;
         padding: 0;
-        display: none; }
+        display: none;
+        position: absolute;
+        left: 100px; }
         #header_in #sp_menu .sp_navi .sp_navi_li li {
           border: 1px #e2ddd4 solid;
           list-style: none;
